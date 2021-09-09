@@ -14,7 +14,7 @@ export class CourseListComponent implements OnInit {
       {
         id: 1,
         name: 'Python na Prática',
-        imageUrl: '',
+        imageUrl: '/assets/images/forms.png',
         price: 12.54,
         code: 'XPS-1243',
         duration: 240,
@@ -24,7 +24,7 @@ export class CourseListComponent implements OnInit {
       {
         id: 2,
         name: 'Java na Prática',
-        imageUrl: '',
+        imageUrl: '/assets/images/http.png',
         price: 22.54,
         code: 'XPS-6221',
         duration: 120,
