@@ -6,11 +6,11 @@ import { Course } from "./course";
 })
 export class CourseService {
 
-  retrieveAll(): Course[] {
-      return COURSES;
+    retrieveAll(): Course[] {
+      return this.COURSES;
   }
 
-  var COURSES: Course[] = [
+  COURSES: Course[] = [
     {
         id: 1,
         name: 'Angular: CLI',
@@ -68,3 +68,4 @@ export class CourseService {
     }
   ];
 
+}
