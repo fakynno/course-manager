@@ -10,6 +10,10 @@ export class CourseService {
       return this.COURSES;
   }
 
+    retrieveById(id: number): Course | undefined {
+      return this.COURSES.find((courseIterator: Course) => courseIterator.id === id);
+    }
+
   COURSES: Course[] = [
     {
         id: 1,
